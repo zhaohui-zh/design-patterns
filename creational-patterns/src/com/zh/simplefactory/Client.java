@@ -7,8 +7,8 @@ package com.zh.simplefactory;
 public class Client {
 
     public static void main(String[] args) {
-        Product productA = Factory.createProduct("A");
-        Product productB = Factory.createProduct("B");
+        Product productA = SimpleFactory.createProduct("A");
+        Product productB = SimpleFactory.createProduct("B");
         productA.use();
         productB.use();
     }
